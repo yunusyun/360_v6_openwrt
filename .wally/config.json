@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "deploy": {
+    "command": "",
+    "guide": "",
+    "verify": "",
+    "rollback": "",
+    "readiness": "pending",
+    "gaps": [
+      "No local deploy entry exists: the only build pipeline is the GitHub Actions workflow 'Build OpenWrt' (.github/workflows/build-openwrt.yml) triggered manually via workflow_dispatch or repository_dispatch",
+      "No target deployment environment is defined (firmware is uploaded as GitHub Actions Artifacts / optional release; no router flash or rollout procedure)",
+      "No rollback procedure is defined for flashed firmware"
+    ]
+  },
+  "it": {
+    "command": "",
+    "guide": "",
+    "success_criteria": "",
+    "readiness": "pending",
+    "gaps": [
+      "No integration test entry or command exists in the candidate files (no test scripts, harness, or CI check job)",
+      "No success criteria beyond the workflow's compile step completing and firmware artifacts being uploaded"
+    ]
+  }
+}
