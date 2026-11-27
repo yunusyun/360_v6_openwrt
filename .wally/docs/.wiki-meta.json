@@ -1,0 +1,1065 @@
+{
+  "generator": "wally-codewiki",
+  "language": "zh-CN",
+  "workspaceMode": "single-repo",
+  "generatedAt": "2026-11-27T10:20:08Z",
+  "commitHash": "2ccf86c05d8da4b11ab8afd8621d939e17577ba5",
+  "branch": "chore/wally-init-20261127-c48491",
+  "mode": "full",
+  "pageCount": 35,
+  "skippedHumanPages": [],
+  "driftWarnings": [],
+  "externalPages": {
+    "reason": "wally-init 安装的 SOP 执行规范权威页（apis/sqls/unittest/integration_test/devops）：codewiki 只在 INDEX 链接、不复制正文、不套用生成页格式（依据 .wally/versions/3f84e7245abcc75d/core/knowledge.md:11）",
+    "paths": [
+      "apis/_template.md",
+      "apis/index.md",
+      "devops/env.md",
+      "devops/test-env-deploy.md",
+      "integration_test/integration_test.md",
+      "sqls/README.md",
+      "unittest/unittest.md"
+    ]
+  },
+  "pageOrder": [
+    "INDEX.md",
+    "overview/system-architecture.md",
+    "overview/business-architecture.md",
+    "overview/callchain-panorama.md",
+    "overview/glossary.md",
+    "architecture/index.md",
+    "architecture/module-dep-matrix.md",
+    "architecture/openwrt-build-pipeline.md",
+    "architecture/update-checker.md",
+    "architecture/sop-engine-and-routing.md",
+    "architecture/token-collectors.md",
+    "architecture/agent-integration-layer.md",
+    "integrations/index.md",
+    "integrations/topology-and-mapping.md",
+    "integrations/downstream/coolsnowwolf-lede.md",
+    "integrations/downstream/openwrt-passwall-feed.md",
+    "integrations/downstream/github-actions-platform.md",
+    "integrations/downstream/file-transfer.md",
+    "integrations/downstream/ssh2actions-debug.md",
+    "business/index.md",
+    "business/firmware-build.md",
+    "business/source-update-trigger.md",
+    "business/sop-task-lifecycle.md",
+    "business/token-report.md",
+    "business/domain-models/index.md",
+    "business/domain-models/sop-task-artifacts.md",
+    "business/domain-models/token-ledger.md",
+    "contracts/api-reference.md",
+    "contracts/error-codes.md",
+    "contracts/configuration.md",
+    "operations/dev-and-test.md",
+    "operations/deployment-and-runtime.md",
+    "operations/runbook-and-observability.md",
+    "operations/pitfalls-and-adr.md",
+    "operations/boundary.md"
+  ],
+  "fileToDocs": {
+    ".github/workflows/build-openwrt.yml": [
+      "overview/system-architecture.md",
+      "overview/business-architecture.md",
+      "overview/callchain-panorama.md",
+      "overview/glossary.md",
+      "architecture/module-dep-matrix.md",
+      "architecture/openwrt-build-pipeline.md",
+      "integrations/index.md",
+      "integrations/topology-and-mapping.md",
+      "integrations/downstream/coolsnowwolf-lede.md",
+      "integrations/downstream/openwrt-passwall-feed.md",
+      "integrations/downstream/github-actions-platform.md",
+      "integrations/downstream/file-transfer.md",
+      "integrations/downstream/ssh2actions-debug.md",
+      "business/index.md",
+      "business/firmware-build.md",
+      "business/source-update-trigger.md",
+      "contracts/api-reference.md",
+      "contracts/error-codes.md",
+      "contracts/configuration.md",
+      "operations/dev-and-test.md",
+      "operations/deployment-and-runtime.md",
+      "operations/runbook-and-observability.md",
+      "operations/pitfalls-and-adr.md",
+      "operations/boundary.md"
+    ],
+    ".github/workflows/update-checker.yml": [
+      "overview/system-architecture.md",
+      "overview/business-architecture.md",
+      "overview/callchain-panorama.md",
+      "architecture/module-dep-matrix.md",
+      "architecture/update-checker.md",
+      "integrations/index.md",
+      "integrations/topology-and-mapping.md",
+      "integrations/downstream/coolsnowwolf-lede.md",
+      "integrations/downstream/github-actions-platform.md",
+      "business/index.md",
+      "business/source-update-trigger.md",
+      "contracts/api-reference.md",
+      "contracts/configuration.md",
+      "operations/deployment-and-runtime.md",
+      "operations/runbook-and-observability.md",
+      "operations/pitfalls-and-adr.md",
+      "operations/boundary.md"
+    ],
+    ".wally/scripts/create_task.py": [
+      "overview/system-architecture.md",
+      "overview/business-architecture.md",
+      "overview/callchain-panorama.md",
+      "overview/glossary.md",
+      "architecture/module-dep-matrix.md",
+      "architecture/sop-engine-and-routing.md",
+      "integrations/index.md",
+      "integrations/topology-and-mapping.md",
+      "business/index.md",
+      "business/sop-task-lifecycle.md",
+      "business/domain-models/index.md",
+      "business/domain-models/sop-task-artifacts.md",
+      "contracts/api-reference.md",
+      "contracts/error-codes.md",
+      "operations/dev-and-test.md",
+      "operations/pitfalls-and-adr.md"
+    ],
+    ".wally/scripts/sop_context.py": [
+      "overview/system-architecture.md",
+      "overview/business-architecture.md",
+      "overview/callchain-panorama.md",
+      "overview/glossary.md",
+      "architecture/module-dep-matrix.md",
+      "architecture/sop-engine-and-routing.md",
+      "integrations/index.md",
+      "integrations/topology-and-mapping.md",
+      "business/index.md",
+      "business/sop-task-lifecycle.md",
+      "business/domain-models/index.md",
+      "business/domain-models/sop-task-artifacts.md",
+      "business/domain-models/token-ledger.md",
+      "contracts/api-reference.md",
+      "contracts/error-codes.md",
+      "operations/dev-and-test.md",
+      "operations/runbook-and-observability.md",
+      "operations/pitfalls-and-adr.md"
+    ],
+    ".claude/hooks/_token_common.py": [
+      "overview/system-architecture.md",
+      "overview/callchain-panorama.md",
+      "overview/glossary.md",
+      "architecture/module-dep-matrix.md",
+      "architecture/token-collectors.md",
+      "integrations/topology-and-mapping.md",
+      "business/index.md",
+      "business/token-report.md",
+      "business/domain-models/index.md",
+      "business/domain-models/token-ledger.md",
+      "contracts/error-codes.md",
+      "contracts/configuration.md",
+      "operations/deployment-and-runtime.md",
+      "operations/runbook-and-observability.md",
+      "operations/pitfalls-and-adr.md"
+    ],
+    ".claude/scripts/token_report.py": [
+      "overview/system-architecture.md",
+      "overview/business-architecture.md",
+      "overview/callchain-panorama.md",
+      "architecture/module-dep-matrix.md",
+      "architecture/token-collectors.md",
+      "integrations/topology-and-mapping.md",
+      "business/index.md",
+      "business/token-report.md",
+      "business/domain-models/token-ledger.md",
+      "contracts/api-reference.md",
+      "contracts/error-codes.md",
+      "contracts/configuration.md",
+      "operations/dev-and-test.md",
+      "operations/runbook-and-observability.md"
+    ],
+    ".wally/install-state.json": [
+      "overview/system-architecture.md",
+      "overview/glossary.md",
+      "architecture/sop-engine-and-routing.md",
+      "business/sop-task-lifecycle.md",
+      "business/domain-models/index.md",
+      "business/domain-models/sop-task-artifacts.md",
+      "contracts/configuration.md",
+      "operations/pitfalls-and-adr.md",
+      "operations/boundary.md"
+    ],
+    "AGENTS.md": [
+      "overview/system-architecture.md",
+      "overview/business-architecture.md",
+      "architecture/agent-integration-layer.md"
+    ],
+    ".config": [
+      "overview/system-architecture.md",
+      "overview/business-architecture.md",
+      "architecture/index.md",
+      "architecture/openwrt-build-pipeline.md",
+      "integrations/topology-and-mapping.md",
+      "business/firmware-build.md"
+    ],
+    "diy-part1.sh": [
+      "overview/system-architecture.md",
+      "architecture/index.md",
+      "architecture/openwrt-build-pipeline.md",
+      "integrations/index.md",
+      "integrations/topology-and-mapping.md",
+      "integrations/downstream/openwrt-passwall-feed.md",
+      "business/firmware-build.md",
+      "operations/pitfalls-and-adr.md"
+    ],
+    ".wally/config.json": [
+      "overview/business-architecture.md",
+      "architecture/sop-engine-and-routing.md",
+      "integrations/topology-and-mapping.md",
+      "business/sop-task-lifecycle.md",
+      "business/domain-models/index.md",
+      "business/domain-models/sop-task-artifacts.md",
+      "contracts/configuration.md",
+      "operations/deployment-and-runtime.md"
+    ],
+    ".claude/hooks/claude_token_collect.py": [
+      "overview/callchain-panorama.md",
+      "architecture/token-collectors.md",
+      "business/token-report.md",
+      "contracts/error-codes.md",
+      "contracts/configuration.md"
+    ],
+    ".codebuddy/hooks/stop_token_collect.py": [
+      "overview/callchain-panorama.md",
+      "architecture/token-collectors.md",
+      "business/token-report.md",
+      "contracts/error-codes.md",
+      "contracts/configuration.md"
+    ],
+    ".wally/versions/3f84e7245abcc75d/plans-template/00-overview.md": [
+      "overview/glossary.md",
+      "architecture/sop-engine-and-routing.md",
+      "business/sop-task-lifecycle.md",
+      "business/domain-models/index.md",
+      "business/domain-models/sop-task-artifacts.md"
+    ],
+    ".github/workflows": [
+      "architecture/index.md"
+    ],
+    ".wally/scripts": [
+      "architecture/index.md"
+    ],
+    ".wally/core": [
+      "architecture/index.md"
+    ],
+    ".wally/versions": [
+      "architecture/index.md"
+    ],
+    ".claude/hooks": [
+      "architecture/index.md"
+    ],
+    ".codebuddy/hooks": [
+      "architecture/index.md"
+    ],
+    ".codex/hooks": [
+      "architecture/index.md"
+    ],
+    ".cursor/hooks": [
+      "architecture/index.md"
+    ],
+    ".agents/skills": [
+      "architecture/index.md"
+    ],
+    "diy-part2.sh": [
+      "architecture/index.md",
+      "architecture/openwrt-build-pipeline.md",
+      "business/firmware-build.md",
+      "operations/pitfalls-and-adr.md"
+    ],
+    ".wally/core/entry.md": [
+      "architecture/module-dep-matrix.md",
+      "architecture/sop-engine-and-routing.md"
+    ],
+    ".wally/profiles/project.md": [
+      "architecture/module-dep-matrix.md",
+      "architecture/sop-engine-and-routing.md",
+      "business/sop-task-lifecycle.md"
+    ],
+    ".wally/rules/README.md": [
+      "architecture/module-dep-matrix.md",
+      "architecture/sop-engine-and-routing.md",
+      "operations/dev-and-test.md"
+    ],
+    ".wally/versions/3f84e7245abcc75d/core/workflow.md": [
+      "architecture/module-dep-matrix.md",
+      "architecture/sop-engine-and-routing.md",
+      "business/sop-task-lifecycle.md"
+    ],
+    ".claude/settings.json": [
+      "architecture/module-dep-matrix.md",
+      "architecture/agent-integration-layer.md",
+      "business/token-report.md"
+    ],
+    ".codebuddy/settings.json": [
+      "architecture/module-dep-matrix.md",
+      "architecture/agent-integration-layer.md",
+      "business/token-report.md"
+    ],
+    ".codex/hooks.json": [
+      "architecture/module-dep-matrix.md",
+      "architecture/agent-integration-layer.md",
+      "business/token-report.md"
+    ],
+    ".cursor/hooks.json": [
+      "architecture/module-dep-matrix.md",
+      "architecture/agent-integration-layer.md",
+      "business/token-report.md"
+    ],
+    ".agents/skills/clarify/SKILL.md": [
+      "architecture/module-dep-matrix.md",
+      "architecture/agent-integration-layer.md"
+    ],
+    ".wally/core/scope.md": [
+      "architecture/sop-engine-and-routing.md"
+    ],
+    ".wally/versions/3f84e7245abcc75d/core/knowledge.md": [
+      "architecture/sop-engine-and-routing.md",
+      "business/sop-task-lifecycle.md",
+      "operations/pitfalls-and-adr.md"
+    ],
+    ".wally/review.md": [
+      "architecture/sop-engine-and-routing.md",
+      "business/sop-task-lifecycle.md",
+      "operations/runbook-and-observability.md"
+    ],
+    ".codex/hooks/codex_token_collect.py": [
+      "architecture/token-collectors.md",
+      "business/token-report.md",
+      "contracts/configuration.md"
+    ],
+    ".cursor/hooks/cursor_token_collect.py": [
+      "architecture/token-collectors.md",
+      "business/token-report.md",
+      "contracts/configuration.md"
+    ],
+    ".agents/skills/sop-aware-code-review/SKILL.md": [
+      "architecture/agent-integration-layer.md"
+    ],
+    ".agents/skills/wally-open-cli/SKILL.md": [
+      "architecture/agent-integration-layer.md",
+      "integrations/index.md",
+      "contracts/configuration.md",
+      "operations/boundary.md"
+    ],
+    ".github/copilot-instructions.md": [
+      "architecture/agent-integration-layer.md"
+    ],
+    ".agent/rules/wally-sop.md": [
+      "architecture/agent-integration-layer.md"
+    ],
+    ".windsurf/rules/wally-sop.md": [
+      "architecture/agent-integration-layer.md"
+    ],
+    ".cursor/rules/wally-sop.mdc": [
+      "architecture/agent-integration-layer.md"
+    ],
+    ".wally/versions/3f84e7245abcc75d/commit.md": [
+      "business/domain-models/sop-task-artifacts.md"
+    ],
+    ".gitignore": [
+      "business/domain-models/token-ledger.md",
+      "operations/dev-and-test.md",
+      "operations/deployment-and-runtime.md",
+      "operations/pitfalls-and-adr.md"
+    ],
+    "README.md": [
+      "operations/boundary.md"
+    ],
+    "LICENSE": [
+      "operations/boundary.md"
+    ]
+  },
+  "repoDeps": [],
+  "moduleTree": [
+    {
+      "page": "overview/system-architecture.md",
+      "sourcePaths": [
+        ".github/workflows/build-openwrt.yml",
+        ".github/workflows/update-checker.yml",
+        ".wally/scripts/create_task.py",
+        ".wally/scripts/sop_context.py",
+        ".claude/hooks/_token_common.py",
+        ".claude/scripts/token_report.py",
+        ".wally/install-state.json",
+        "AGENTS.md",
+        ".config",
+        "diy-part1.sh"
+      ],
+      "dependsOn": [
+        "architecture/index.md",
+        "integrations/index.md",
+        "overview/callchain-panorama.md"
+      ],
+      "usedBy": [
+        "INDEX.md"
+      ]
+    },
+    {
+      "page": "overview/business-architecture.md",
+      "sourcePaths": [
+        ".github/workflows/build-openwrt.yml",
+        ".github/workflows/update-checker.yml",
+        ".wally/scripts/create_task.py",
+        ".wally/scripts/sop_context.py",
+        ".claude/scripts/token_report.py",
+        ".wally/config.json",
+        ".config",
+        "AGENTS.md"
+      ],
+      "dependsOn": [
+        "business/index.md",
+        "business/domain-models/index.md",
+        "overview/callchain-panorama.md"
+      ],
+      "usedBy": [
+        "INDEX.md"
+      ]
+    },
+    {
+      "page": "overview/callchain-panorama.md",
+      "sourcePaths": [
+        ".github/workflows/build-openwrt.yml",
+        ".github/workflows/update-checker.yml",
+        ".wally/scripts/create_task.py",
+        ".wally/scripts/sop_context.py",
+        ".claude/hooks/_token_common.py",
+        ".claude/scripts/token_report.py",
+        ".claude/hooks/claude_token_collect.py",
+        ".codebuddy/hooks/stop_token_collect.py"
+      ],
+      "dependsOn": [
+        "integrations/topology-and-mapping.md",
+        "contracts/error-codes.md",
+        "business/firmware-build.md",
+        "business/sop-task-lifecycle.md",
+        "business/token-report.md"
+      ],
+      "usedBy": [
+        "INDEX.md"
+      ]
+    },
+    {
+      "page": "overview/glossary.md",
+      "sourcePaths": [
+        ".github/workflows/build-openwrt.yml",
+        ".wally/scripts/sop_context.py",
+        ".wally/scripts/create_task.py",
+        ".wally/install-state.json",
+        ".wally/versions/3f84e7245abcc75d/plans-template/00-overview.md",
+        ".claude/hooks/_token_common.py"
+      ],
+      "dependsOn": [
+        "business/index.md",
+        "business/domain-models/index.md"
+      ],
+      "usedBy": [
+        "INDEX.md"
+      ]
+    },
+    {
+      "page": "architecture/index.md",
+      "sourcePaths": [
+        ".github/workflows",
+        ".wally/scripts",
+        ".wally/core",
+        ".wally/versions",
+        ".claude/hooks",
+        ".codebuddy/hooks",
+        ".codex/hooks",
+        ".cursor/hooks",
+        ".agents/skills",
+        ".config",
+        "diy-part1.sh",
+        "diy-part2.sh"
+      ],
+      "dependsOn": [
+        "architecture/module-dep-matrix.md",
+        "architecture/openwrt-build-pipeline.md",
+        "architecture/update-checker.md",
+        "architecture/sop-engine-and-routing.md",
+        "architecture/token-collectors.md",
+        "architecture/agent-integration-layer.md"
+      ],
+      "usedBy": [
+        "INDEX.md",
+        "overview/system-architecture.md"
+      ]
+    },
+    {
+      "page": "architecture/module-dep-matrix.md",
+      "sourcePaths": [
+        ".github/workflows/build-openwrt.yml",
+        ".github/workflows/update-checker.yml",
+        ".wally/scripts/create_task.py",
+        ".wally/scripts/sop_context.py",
+        ".wally/core/entry.md",
+        ".wally/profiles/project.md",
+        ".wally/rules/README.md",
+        ".wally/versions/3f84e7245abcc75d/core/workflow.md",
+        ".claude/hooks/_token_common.py",
+        ".claude/scripts/token_report.py",
+        ".claude/settings.json",
+        ".codebuddy/settings.json",
+        ".codex/hooks.json",
+        ".cursor/hooks.json",
+        ".agents/skills/clarify/SKILL.md"
+      ],
+      "dependsOn": [
+        "operations/pitfalls-and-adr.md",
+        "business/domain-models/sop-task-artifacts.md"
+      ],
+      "usedBy": [
+        "architecture/index.md"
+      ]
+    },
+    {
+      "page": "architecture/openwrt-build-pipeline.md",
+      "sourcePaths": [
+        ".github/workflows/build-openwrt.yml",
+        "diy-part1.sh",
+        "diy-part2.sh",
+        ".config"
+      ],
+      "dependsOn": [
+        "integrations/downstream/coolsnowwolf-lede.md",
+        "integrations/downstream/openwrt-passwall-feed.md",
+        "integrations/downstream/github-actions-platform.md",
+        "integrations/downstream/file-transfer.md",
+        "integrations/downstream/ssh2actions-debug.md"
+      ],
+      "usedBy": [
+        "INDEX.md",
+        "overview/callchain-panorama.md"
+      ]
+    },
+    {
+      "page": "architecture/update-checker.md",
+      "sourcePaths": [
+        ".github/workflows/update-checker.yml"
+      ],
+      "dependsOn": [
+        "integrations/downstream/coolsnowwolf-lede.md",
+        "integrations/downstream/github-actions-platform.md",
+        "architecture/openwrt-build-pipeline.md"
+      ],
+      "usedBy": [
+        "INDEX.md",
+        "overview/callchain-panorama.md"
+      ]
+    },
+    {
+      "page": "architecture/sop-engine-and-routing.md",
+      "sourcePaths": [
+        ".wally/scripts/create_task.py",
+        ".wally/scripts/sop_context.py",
+        ".wally/core/entry.md",
+        ".wally/core/scope.md",
+        ".wally/config.json",
+        ".wally/install-state.json",
+        ".wally/versions/3f84e7245abcc75d/core/workflow.md",
+        ".wally/versions/3f84e7245abcc75d/core/knowledge.md",
+        ".wally/versions/3f84e7245abcc75d/plans-template/00-overview.md",
+        ".wally/rules/README.md",
+        ".wally/profiles/project.md",
+        ".wally/review.md"
+      ],
+      "dependsOn": [
+        "business/sop-task-lifecycle.md",
+        "business/domain-models/sop-task-artifacts.md",
+        "contracts/api-reference.md",
+        "contracts/error-codes.md",
+        "contracts/configuration.md"
+      ],
+      "usedBy": [
+        "INDEX.md",
+        "overview/callchain-panorama.md"
+      ]
+    },
+    {
+      "page": "architecture/token-collectors.md",
+      "sourcePaths": [
+        ".claude/hooks/_token_common.py",
+        ".claude/hooks/claude_token_collect.py",
+        ".codebuddy/hooks/stop_token_collect.py",
+        ".codex/hooks/codex_token_collect.py",
+        ".cursor/hooks/cursor_token_collect.py",
+        ".claude/scripts/token_report.py"
+      ],
+      "dependsOn": [
+        "business/token-report.md",
+        "business/domain-models/token-ledger.md",
+        "integrations/index.md",
+        "contracts/configuration.md"
+      ],
+      "usedBy": [
+        "INDEX.md",
+        "overview/callchain-panorama.md"
+      ]
+    },
+    {
+      "page": "architecture/agent-integration-layer.md",
+      "sourcePaths": [
+        ".agents/skills/clarify/SKILL.md",
+        ".agents/skills/sop-aware-code-review/SKILL.md",
+        ".agents/skills/wally-open-cli/SKILL.md",
+        ".github/copilot-instructions.md",
+        ".agent/rules/wally-sop.md",
+        ".windsurf/rules/wally-sop.md",
+        ".cursor/rules/wally-sop.mdc",
+        "AGENTS.md",
+        ".claude/settings.json",
+        ".codebuddy/settings.json",
+        ".codex/hooks.json",
+        ".cursor/hooks.json"
+      ],
+      "dependsOn": [
+        "architecture/sop-engine-and-routing.md",
+        "architecture/token-collectors.md",
+        "contracts/api-reference.md",
+        "contracts/configuration.md"
+      ],
+      "usedBy": [
+        "INDEX.md",
+        "overview/system-architecture.md"
+      ]
+    },
+    {
+      "page": "integrations/index.md",
+      "sourcePaths": [
+        ".github/workflows/build-openwrt.yml",
+        ".github/workflows/update-checker.yml",
+        "diy-part1.sh",
+        ".agents/skills/wally-open-cli/SKILL.md",
+        ".wally/scripts/sop_context.py",
+        ".wally/scripts/create_task.py"
+      ],
+      "dependsOn": [
+        "integrations/topology-and-mapping.md",
+        "integrations/downstream/coolsnowwolf-lede.md",
+        "integrations/downstream/openwrt-passwall-feed.md",
+        "integrations/downstream/github-actions-platform.md",
+        "integrations/downstream/file-transfer.md",
+        "integrations/downstream/ssh2actions-debug.md"
+      ],
+      "usedBy": [
+        "INDEX.md",
+        "overview/system-architecture.md"
+      ]
+    },
+    {
+      "page": "integrations/topology-and-mapping.md",
+      "sourcePaths": [
+        ".github/workflows/build-openwrt.yml",
+        ".github/workflows/update-checker.yml",
+        ".wally/scripts/create_task.py",
+        ".wally/scripts/sop_context.py",
+        ".claude/scripts/token_report.py",
+        ".claude/hooks/_token_common.py",
+        ".wally/config.json",
+        ".config",
+        "diy-part1.sh"
+      ],
+      "dependsOn": [
+        "integrations/downstream/coolsnowwolf-lede.md",
+        "integrations/downstream/openwrt-passwall-feed.md",
+        "integrations/downstream/github-actions-platform.md",
+        "integrations/downstream/file-transfer.md",
+        "integrations/downstream/ssh2actions-debug.md"
+      ],
+      "usedBy": [
+        "contracts/api-reference.md",
+        "integrations/index.md"
+      ]
+    },
+    {
+      "page": "integrations/downstream/coolsnowwolf-lede.md",
+      "sourcePaths": [
+        ".github/workflows/build-openwrt.yml",
+        ".github/workflows/update-checker.yml"
+      ],
+      "dependsOn": [],
+      "usedBy": [
+        "integrations/index.md",
+        "integrations/topology-and-mapping.md"
+      ]
+    },
+    {
+      "page": "integrations/downstream/openwrt-passwall-feed.md",
+      "sourcePaths": [
+        "diy-part1.sh",
+        ".github/workflows/build-openwrt.yml"
+      ],
+      "dependsOn": [],
+      "usedBy": [
+        "integrations/index.md",
+        "integrations/topology-and-mapping.md"
+      ]
+    },
+    {
+      "page": "integrations/downstream/github-actions-platform.md",
+      "sourcePaths": [
+        ".github/workflows/build-openwrt.yml",
+        ".github/workflows/update-checker.yml"
+      ],
+      "dependsOn": [],
+      "usedBy": [
+        "integrations/index.md",
+        "integrations/topology-and-mapping.md"
+      ]
+    },
+    {
+      "page": "integrations/downstream/file-transfer.md",
+      "sourcePaths": [
+        ".github/workflows/build-openwrt.yml"
+      ],
+      "dependsOn": [],
+      "usedBy": [
+        "integrations/index.md",
+        "integrations/topology-and-mapping.md"
+      ]
+    },
+    {
+      "page": "integrations/downstream/ssh2actions-debug.md",
+      "sourcePaths": [
+        ".github/workflows/build-openwrt.yml"
+      ],
+      "dependsOn": [],
+      "usedBy": [
+        "integrations/index.md",
+        "integrations/topology-and-mapping.md"
+      ]
+    },
+    {
+      "page": "business/index.md",
+      "sourcePaths": [
+        ".github/workflows/build-openwrt.yml",
+        ".github/workflows/update-checker.yml",
+        ".wally/scripts/create_task.py",
+        ".wally/scripts/sop_context.py",
+        ".claude/scripts/token_report.py",
+        ".claude/hooks/_token_common.py"
+      ],
+      "dependsOn": [
+        "business/firmware-build.md",
+        "business/source-update-trigger.md",
+        "business/sop-task-lifecycle.md",
+        "business/token-report.md",
+        "business/domain-models/index.md",
+        "contracts/api-reference.md"
+      ],
+      "usedBy": [
+        "INDEX.md",
+        "overview/business-architecture.md"
+      ]
+    },
+    {
+      "page": "business/firmware-build.md",
+      "sourcePaths": [
+        ".github/workflows/build-openwrt.yml",
+        "diy-part1.sh",
+        "diy-part2.sh",
+        ".config"
+      ],
+      "dependsOn": [
+        "integrations/downstream/coolsnowwolf-lede.md",
+        "integrations/downstream/openwrt-passwall-feed.md",
+        "integrations/downstream/github-actions-platform.md",
+        "integrations/downstream/file-transfer.md",
+        "integrations/downstream/ssh2actions-debug.md",
+        "business/domain-models/sop-task-artifacts.md"
+      ],
+      "usedBy": [
+        "business/index.md",
+        "contracts/api-reference.md"
+      ]
+    },
+    {
+      "page": "business/source-update-trigger.md",
+      "sourcePaths": [
+        ".github/workflows/update-checker.yml",
+        ".github/workflows/build-openwrt.yml"
+      ],
+      "dependsOn": [
+        "integrations/downstream/coolsnowwolf-lede.md",
+        "integrations/downstream/github-actions-platform.md",
+        "business/firmware-build.md"
+      ],
+      "usedBy": [
+        "business/index.md",
+        "contracts/api-reference.md"
+      ]
+    },
+    {
+      "page": "business/sop-task-lifecycle.md",
+      "sourcePaths": [
+        ".wally/scripts/create_task.py",
+        ".wally/scripts/sop_context.py",
+        ".wally/config.json",
+        ".wally/install-state.json",
+        ".wally/versions/3f84e7245abcc75d/plans-template/00-overview.md",
+        ".wally/versions/3f84e7245abcc75d/core/workflow.md",
+        ".wally/versions/3f84e7245abcc75d/core/knowledge.md",
+        ".wally/profiles/project.md",
+        ".wally/review.md"
+      ],
+      "dependsOn": [
+        "business/domain-models/sop-task-artifacts.md",
+        "architecture/sop-engine-and-routing.md",
+        "business/token-report.md",
+        "contracts/configuration.md"
+      ],
+      "usedBy": [
+        "business/index.md",
+        "contracts/api-reference.md"
+      ]
+    },
+    {
+      "page": "business/token-report.md",
+      "sourcePaths": [
+        ".claude/hooks/_token_common.py",
+        ".claude/hooks/claude_token_collect.py",
+        ".codebuddy/hooks/stop_token_collect.py",
+        ".codex/hooks/codex_token_collect.py",
+        ".cursor/hooks/cursor_token_collect.py",
+        ".claude/scripts/token_report.py",
+        ".codebuddy/settings.json",
+        ".codex/hooks.json",
+        ".cursor/hooks.json",
+        ".claude/settings.json"
+      ],
+      "dependsOn": [
+        "business/domain-models/token-ledger.md",
+        "architecture/token-collectors.md",
+        "contracts/configuration.md"
+      ],
+      "usedBy": [
+        "business/index.md",
+        "business/sop-task-lifecycle.md"
+      ]
+    },
+    {
+      "page": "business/domain-models/index.md",
+      "sourcePaths": [
+        ".wally/scripts/create_task.py",
+        ".wally/scripts/sop_context.py",
+        ".wally/config.json",
+        ".wally/install-state.json",
+        ".wally/versions/3f84e7245abcc75d/plans-template/00-overview.md",
+        ".claude/hooks/_token_common.py"
+      ],
+      "dependsOn": [
+        "business/domain-models/sop-task-artifacts.md",
+        "business/domain-models/token-ledger.md",
+        "architecture/index.md"
+      ],
+      "usedBy": [
+        "business/index.md",
+        "overview/business-architecture.md"
+      ]
+    },
+    {
+      "page": "business/domain-models/sop-task-artifacts.md",
+      "sourcePaths": [
+        ".wally/scripts/create_task.py",
+        ".wally/scripts/sop_context.py",
+        ".wally/config.json",
+        ".wally/install-state.json",
+        ".wally/versions/3f84e7245abcc75d/plans-template/00-overview.md",
+        ".wally/versions/3f84e7245abcc75d/commit.md"
+      ],
+      "dependsOn": [
+        "architecture/sop-engine-and-routing.md",
+        "contracts/error-codes.md"
+      ],
+      "usedBy": [
+        "business/domain-models/index.md",
+        "business/sop-task-lifecycle.md"
+      ]
+    },
+    {
+      "page": "business/domain-models/token-ledger.md",
+      "sourcePaths": [
+        ".claude/hooks/_token_common.py",
+        ".claude/scripts/token_report.py",
+        ".wally/scripts/sop_context.py",
+        ".gitignore"
+      ],
+      "dependsOn": [
+        "architecture/token-collectors.md",
+        "contracts/error-codes.md"
+      ],
+      "usedBy": [
+        "business/domain-models/index.md",
+        "business/token-report.md"
+      ]
+    },
+    {
+      "page": "contracts/api-reference.md",
+      "sourcePaths": [
+        ".github/workflows/build-openwrt.yml",
+        ".github/workflows/update-checker.yml",
+        ".wally/scripts/create_task.py",
+        ".wally/scripts/sop_context.py",
+        ".claude/scripts/token_report.py"
+      ],
+      "dependsOn": [
+        "integrations/topology-and-mapping.md",
+        "contracts/error-codes.md",
+        "architecture/sop-engine-and-routing.md"
+      ],
+      "usedBy": [
+        "INDEX.md"
+      ]
+    },
+    {
+      "page": "contracts/error-codes.md",
+      "sourcePaths": [
+        ".wally/scripts/create_task.py",
+        ".wally/scripts/sop_context.py",
+        ".claude/hooks/_token_common.py",
+        ".claude/scripts/token_report.py",
+        ".claude/hooks/claude_token_collect.py",
+        ".codebuddy/hooks/stop_token_collect.py",
+        ".github/workflows/build-openwrt.yml"
+      ],
+      "dependsOn": [
+        "operations/runbook-and-observability.md"
+      ],
+      "usedBy": [
+        "contracts/api-reference.md",
+        "integrations/index.md"
+      ]
+    },
+    {
+      "page": "contracts/configuration.md",
+      "sourcePaths": [
+        ".github/workflows/build-openwrt.yml",
+        ".github/workflows/update-checker.yml",
+        ".wally/config.json",
+        ".wally/install-state.json",
+        ".claude/hooks/_token_common.py",
+        ".claude/scripts/token_report.py",
+        ".claude/hooks/claude_token_collect.py",
+        ".codebuddy/hooks/stop_token_collect.py",
+        ".codex/hooks/codex_token_collect.py",
+        ".cursor/hooks/cursor_token_collect.py",
+        ".agents/skills/wally-open-cli/SKILL.md"
+      ],
+      "dependsOn": [
+        "operations/deployment-and-runtime.md",
+        "architecture/token-collectors.md"
+      ],
+      "usedBy": [
+        "INDEX.md",
+        "overview/system-architecture.md"
+      ]
+    },
+    {
+      "page": "operations/dev-and-test.md",
+      "sourcePaths": [
+        ".github/workflows/build-openwrt.yml",
+        ".wally/scripts/create_task.py",
+        ".wally/scripts/sop_context.py",
+        ".claude/scripts/token_report.py",
+        ".wally/rules/README.md",
+        ".gitignore"
+      ],
+      "dependsOn": [
+        "operations/runbook-and-observability.md",
+        "contracts/configuration.md"
+      ],
+      "usedBy": [
+        "INDEX.md"
+      ]
+    },
+    {
+      "page": "operations/deployment-and-runtime.md",
+      "sourcePaths": [
+        ".github/workflows/build-openwrt.yml",
+        ".github/workflows/update-checker.yml",
+        ".wally/config.json",
+        ".gitignore",
+        ".claude/hooks/_token_common.py"
+      ],
+      "dependsOn": [
+        "operations/runbook-and-observability.md",
+        "integrations/downstream/github-actions-platform.md"
+      ],
+      "usedBy": [
+        "INDEX.md",
+        "contracts/configuration.md"
+      ]
+    },
+    {
+      "page": "operations/runbook-and-observability.md",
+      "sourcePaths": [
+        ".github/workflows/build-openwrt.yml",
+        ".github/workflows/update-checker.yml",
+        ".claude/hooks/_token_common.py",
+        ".claude/scripts/token_report.py",
+        ".wally/scripts/sop_context.py",
+        ".wally/review.md"
+      ],
+      "dependsOn": [],
+      "usedBy": [
+        "contracts/error-codes.md"
+      ]
+    },
+    {
+      "page": "operations/pitfalls-and-adr.md",
+      "sourcePaths": [
+        ".github/workflows/build-openwrt.yml",
+        ".github/workflows/update-checker.yml",
+        "diy-part1.sh",
+        "diy-part2.sh",
+        ".wally/install-state.json",
+        ".wally/scripts/sop_context.py",
+        ".wally/scripts/create_task.py",
+        ".claude/hooks/_token_common.py",
+        ".wally/versions/3f84e7245abcc75d/core/knowledge.md",
+        ".gitignore"
+      ],
+      "dependsOn": [],
+      "usedBy": [
+        "INDEX.md",
+        "overview/system-architecture.md",
+        "architecture/module-dep-matrix.md"
+      ]
+    },
+    {
+      "page": "operations/boundary.md",
+      "sourcePaths": [
+        ".github/workflows/build-openwrt.yml",
+        ".github/workflows/update-checker.yml",
+        ".agents/skills/wally-open-cli/SKILL.md",
+        ".wally/install-state.json",
+        "README.md",
+        "LICENSE"
+      ],
+      "dependsOn": [],
+      "usedBy": [
+        "INDEX.md"
+      ]
+    }
+  ],
+  "verification": {
+    "passed": true,
+    "unresolvedRefs": 0,
+    "truncatedPages": 0,
+    "duplicatePairs": 0,
+    "gates": {
+      "G1_header_human_and_meta": "PASS",
+      "G2_coverage_and_contracts": "PASS",
+      "G3_closure_and_anchoring": "PASS",
+      "G4_depth_dedup_and_lang": "PASS",
+      "G5_mermaid_safety": "PASS"
+    }
+  }
+}
